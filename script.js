@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let div2 = document.getElementById("dv2")
 
 
-        if (nom.length < 3) {
+        if (nom.value.length < 3) {
             div1.innerHTML = "veuillez entrer un nom d'au moins 3 caractéres"
         }
 
